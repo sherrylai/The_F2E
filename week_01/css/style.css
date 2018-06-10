@@ -4,13 +4,112 @@ body{
 	font-family: 'Segoe UI',SegoeUI,'Microsoft JhengHei',微軟正黑體,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 .nav{
-	height: 76px;
+	height: 74px;
 	background-color: #4A90E2;
-	color: #00408B;
-	padding-top: 24px;
+	padding-top: 20px;
+}
+
+.nav a{
+	color: #00408B;	
+	font-size: 22px;
+}
+
+.nav a:focus{
+	color: #fff;
+	border-bottom: 5px solid #00408B;
+}
+
+#accordion,.add-input{
+	margin:10px auto;
+	width:620px;
+}
+
+.card-body{
+	background-color: #F2F2F2;
+}
+
+.card-content{
+	margin-left: 20px;
 }
 
 h2{
 	font-size: 24px;
 }
 
+.edit-icon{
+	float: right;
+}
+
+.fa-edit{
+	color: #000;
+	width: 24px;
+	height: 24px;
+}
+
+.edit-open{
+	color: #4A90E2;
+}
+
+.date,.custom-file-upload{
+	margin-top: 10px;
+	margin-left:20px; 
+}
+
+.comment{
+	width: 90%;
+	margin:5px 50px 0 20px; 
+}
+
+	input[type="file"] {
+		display: none;
+	}
+	.custom-file-upload {
+		width: 32px;
+	    height: 32px;
+		background: #C8C8C8;
+		color: #fff;
+		text-align: center;
+		padding: 4px 0;
+		/* border: 1px solid #ccc;
+		display: inline-block;
+		padding: 6px 12px; */
+		cursor: pointer;
+		border-radius: 2px;
+	}
+
+
+	.cancel-btn{
+		width: 50%;
+		height: 60px;
+		background-color: #fff;
+		text-align: center;
+		color: #D0021B;
+		float: left;
+		border: none;
+	}
+
+	.add-btn{
+		width: 50%;
+		height: 60px;
+		background-color: #4A90E2;
+		text-align: center;
+		color: #fff;
+		float: left;
+		border: none;
+	}
+#headingTwo{
+	background-color: #FFF2DC;
+}
+.fas.fa-star{
+	 color:#F5A623; 
+}
+
+span{
+	text-decoration:line-through;
+	color: #9B9B9B;
+}
+	.total{
+		margin-left:20px;
+		color: #C8C8C8;
+		font-size: 24px;
+	}
