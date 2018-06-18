@@ -15,6 +15,10 @@ h1{
 	text-align: center;
 	/* padding-left: 50px; */
 }
+span{
+	color: #007bff;
+	font-weight: bold;
+}
 
 .search{
 	text-align: center;
