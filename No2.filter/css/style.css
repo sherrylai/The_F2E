@@ -16,13 +16,17 @@ h1{
 	/* padding-left: 50px; */
 }
 
+.search{
+	text-align: center;
+}
+
 .search input {
-    width: 100%;
+    width: 50%;
     padding: .5rem;
     border: 0 solid #ababab;
     /* border-bottom: 4px solid #ababab; */
-    /* font-size: 28px;
-    margin: 0; */
+    /* /* font-size: 28px; */
+    margin-bottom: 15px;
     /* background: none; */
     color: #fafafa;
     background-color: #151515;
