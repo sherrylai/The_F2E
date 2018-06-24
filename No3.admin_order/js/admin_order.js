@@ -31,7 +31,7 @@ var materialOptions = {
   chart: {
 	// title: 'Average Temperatures and Daylight in Iceland Throughout the Year'
   },
-  width: 900,
+  width: 1000,
   height: 500,
   series: {
 	// Gives each series an axis name that matches the Y-axis below.
