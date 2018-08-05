@@ -1,0 +1,381 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	line-height: 1;
+	/* outline: 1px solid #3d3d3d; */
+	position: relative;
+	
+  }
+
+body{
+	/* width: 100vw; */
+	/* overflow-x: hidden; */
+	/* width: 100%;
+	max-width: 960px;
+	min-height: 100%;
+	min-height: 100vh;
+	margin: auto;
+	position: relative; */
+}
+
+.content{
+	margin: 0 auto;
+	max-width: 960px;
+	width: 100%;
+	background: radial-gradient(circle, #140A3A, #000);
+	overflow-y: hidden;
+	height: 800px;
+}
+
+.title-img{
+	position: absolute;
+	top: 10px;
+	left: 100px;
+	width: 200px;
+	height: 200px;
+}
+
+.title {
+	position: absolute;
+	top: 50px;
+	left: 280px;
+	color: #fff;
+	text-shadow: 0 3px 7px #0093ff;
+}
+
+h1{
+	font-family: "Yuanti TC","微軟正黑體";
+	font-size: 50px;
+}
+
+h2{
+	font-family: "Silom";
+	font-size: 38px;
+}
+
+.box{
+	width: 50px;
+	height: 50px;
+	border-radius: 40%;
+	background-color: #0d4680;
+	border: 5px solid #5C5C5C;
+	text-align: center;
+}
+
+.box:hover{
+	border: 5px solid #fff;
+}
+
+
+.skill-img{
+	width: 100%;
+	height: 100%;
+}
+
+.label{
+	text-align: center;
+	font-family: "Yuanti TC","微軟正黑體";
+	font-size: 12px;;
+	color: #fff;
+	padding-top:10px;
+}
+
+.skill-box-1{
+	z-index: 5;
+	position: absolute;
+	top: calc(200px + 30px);
+	left: 50px;
+}
+
+.right-arrow-1 {
+	position: absolute;
+	top: 250px;
+	left: 145px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 10px 0 10px 20px;
+	border-color: transparent transparent transparent #fff;
+}
+
+.right-arrow-2 {
+	position: absolute;
+	top: 300px;
+	left: 270px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 10px 0 10px 20px;
+	border-color: transparent transparent transparent #fff;
+}
+
+.right-arrow-3 {
+	position: absolute;
+	top: 400px;
+	left: 115px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 10px 0 10px 20px;
+	border-color: transparent transparent transparent #fff;
+}
+.right-arrow-4 {
+	position: absolute;
+	top: 400px;
+	left: 215px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 10px 0 10px 20px;
+	border-color: transparent transparent transparent #fff;
+}
+
+.right-arrow-5 {
+	position: absolute;
+	top: 210px;
+	left: 365px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 10px 0 10px 20px;
+	border-color: transparent transparent transparent #fff;
+}
+
+.right-arrow-6 {
+	position: absolute;
+	top: 305px;
+	left: 365px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 10px 0 10px 20px;
+	border-color: transparent transparent transparent #fff;
+}
+.right-arrow-7 {
+	position: absolute;
+	top: 425px;
+	left: 365px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 10px 0 10px 20px;
+	border-color: transparent transparent transparent #fff;
+}
+.right-arrow-8 {
+	position: absolute;
+	top: 210px;
+	left: 625px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 10px 0 10px 20px;
+	border-color: transparent transparent transparent #fff;
+}
+
+.right-arrow-9 {
+	position: absolute;
+	top: 305px;
+	left: 525px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 10px 0 10px 20px;
+	border-color: transparent transparent transparent #fff;
+}
+.right-arrow-10 {
+	position: absolute;
+	top: 425px;
+	left: 625px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 10px 0 10px 20px;
+	border-color: transparent transparent transparent #fff;
+}
+
+.right-arrow-11 {
+	position: absolute;
+	top: 305px;
+	left: 625px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 10px 0 10px 20px;
+	border-color: transparent transparent transparent #fff;
+}
+
+.right-arrow-12 {
+	position: absolute;
+	top: 210px;
+	left: 725px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 10px 0 10px 20px;
+	border-color: transparent transparent transparent #fff;
+}
+
+.right-arrow-13 {
+	position: absolute;
+	top: 305px;
+	left: 725px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 10px 0 10px 20px;
+	border-color: transparent transparent transparent #fff;
+}
+
+.right-arrow-14 {
+	position: absolute;
+	top: 425px;
+	left: 725px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 10px 0 10px 20px;
+	border-color: transparent transparent transparent #fff;
+}
+
+.skill-box-2{
+	z-index: 5;
+	position: absolute;
+	top: calc(200px + 30px);
+	left: 200px;
+}
+
+.skill-box-3{
+	z-index: 5;
+	position: absolute;
+	top: calc(350px + 30px);
+	left: 50px;
+}
+
+.skill-box-4{
+	z-index: 5;
+	position: absolute;
+	top: calc(350px + 30px);
+	left: 150px;
+}
+
+.skill-box-5{
+	z-index: 5;
+	position: absolute;
+	top: calc(350px + 30px);
+	left: 250px;
+}
+
+.skill-box-6{
+	z-index: 5;
+	position: absolute;
+	top: calc(250px + 30px);
+	left: 300px;
+}
+
+.skill-box-7{
+	z-index: 5;
+	position: absolute;
+	top: calc(160px + 30px);
+	left: 400px;
+}
+
+.skill-box-8{
+	z-index: 5;
+	position: absolute;
+	top: calc(260px + 30px);
+	left: 400px;
+}
+.skill-box-8 img{
+	z-index: 5;
+	width: 50%;
+}
+
+.skill-box-9{
+	z-index: 5;
+	position: absolute;
+	top: calc(380px + 30px);
+	left: 400px;
+}
+
+.skill-box-10{
+	z-index: 5;
+	position: absolute;
+	top: calc(160px + 30px);
+	left: 460px;
+}
+
+.skill-box-11{
+	z-index: 5;
+	position: absolute;
+	top: calc(260px + 30px);
+	left: 460px;
+}
+
+.skill-box-12{
+	z-index: 5;
+	position: absolute;
+	top: calc(380px + 30px);
+	left: 460px;
+}
+
+.skill-box-13{
+	z-index: 5;
+	position: absolute;
+	top: calc(260px + 30px);
+	left: 560px;
+}
+
+.skill-box-14{
+	z-index: 5;
+	position: absolute;
+	top: calc(160px + 30px);
+	left: 660px;
+}
+
+.skill-box-15{
+	z-index: 5;
+	position: absolute;
+	top: calc(260px + 30px);
+	left: 660px;
+}
+
+.skill-box-16{
+	z-index: 5;
+	position: absolute;
+	top: calc(380px + 30px);
+	left: 660px;
+}
+
+.skill-box-17{
+	z-index: 5;
+	position: absolute;
+	top: calc(160px + 30px);
+	left: 760px;
+}
+
+.skill-box-18{
+	z-index: 5;
+	position: absolute;
+	top: calc(260px + 30px);
+	left: 760px;
+}
+
+.skill-box-19{
+	z-index: 5;
+	position: absolute;
+	top: calc(380px + 30px);
+	left: 760px;
+}
+
+
+
+footer{
+	position: absolute;
+	bottom: -210px;
+	/* z-index: -1; */
+}
+
+footer img{
+	width: 100%;
+}
