@@ -63,6 +63,10 @@ h2{
 	text-align: center;
 }
 
+.box-click{
+	border: 5px solid #fff;
+}
+
 .box:hover{
 	border: 5px solid #fff;
 }
@@ -81,17 +85,22 @@ h2{
 	padding-top:10px;
 }
 
+.skillTree{
+	position: absolute;
+	left: 35px;
+}
+
 .skill-box-1{
 	z-index: 5;
 	position: absolute;
 	top: calc(200px + 30px);
-	left: 50px;
+	left: 75px;
 }
 
 .right-arrow-1 {
 	position: absolute;
 	top: 250px;
-	left: 145px;
+	left: 155px;
 	width: 0;
 	height: 0;
 	border-style: solid;
